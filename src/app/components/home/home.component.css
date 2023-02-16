@@ -1,0 +1,36 @@
+.home img {
+  width: 100%;
+  height: 600px;
+  object-position: center;
+  object-fit: cover;   
+}
+
+.contenido {
+  position: absolute;
+  top: 56%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+
+}
+
+h1 {
+  color: rgb(9, 179, 91);
+  text-shadow: 3px 3px 2px rgba(85, 37, 149, 1);
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+@media screen and (max-width:800) {
+  .home{
+    width:70%;
+  }
+
+ 
+  .contenido h1{
+    font-size: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  
+}

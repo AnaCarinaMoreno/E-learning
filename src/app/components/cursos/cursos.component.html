@@ -1,0 +1,16 @@
+<section class="cursos">
+  <div class="container">
+    <h1 class="text-center mt-3">Nuestros Cursos</h1>
+  </div>
+  <div class="row">
+    <div class="col-lg-3" *ngFor= "let cs of cursos">
+      <div class="box">
+         <img src={{cs.imagen}} width="100%">
+         <h4>{{cs.nombre}}</h4>
+         <p>{{cs.descripcion}}</p>
+         <button class="btn btn-primary">Ver ahora</button>
+      </div>
+
+    </div>
+  </div>
+</section>
